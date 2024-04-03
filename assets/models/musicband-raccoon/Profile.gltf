@@ -1,0 +1,173 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        5
+      ],
+      "min": [
+        0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 6,
+      "type": "VEC3",
+      "max": [
+        10,
+        0,
+        28.10055923461914
+      ],
+      "min": [
+        -10,
+        0,
+        -28.10055923461914
+      ],
+      "name": "POSITION"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 6,
+      "type": "VEC2",
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "name": "TEXCOORD_0"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 20,
+      "componentType": 5126,
+      "count": 6,
+      "type": "VEC3",
+      "max": [
+        0,
+        1.0000044107437134,
+        0
+      ],
+      "min": [
+        0,
+        1.0000044107437134,
+        0
+      ],
+      "name": "NORMAL"
+    }
+  ],
+  "asset": {
+    "generator": "Aspose.3D 24.1.0",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "Profile",
+      "byteLength": 208,
+      "uri": "Profile.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 12,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16,
+      "byteLength": 192,
+      "byteStride": 32,
+      "target": 34962
+    }
+  ],
+  "images": [
+    {
+      "name": "Profile0",
+      "uri": "Profile0.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ],
+      "name": ""
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": ""
+    }
+  ]
+}
